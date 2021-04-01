@@ -36,7 +36,7 @@
 
 
 # Be careful with quotes!
-' I'm using single quotes, but will create an error'
+# ' I'm using single quotes, but will create an error'
 
 
 # The reason for the error above is because the single quote in I'm stopped the
@@ -87,7 +87,7 @@ len('Hello World')
 # Assign s as a string
 s = 'Hello World'
 
-#Check
+# Check
 s
 
 # Print the object
@@ -124,7 +124,7 @@ s[:3]
 # 0 up to 3. It doesn't include the 3rd index. You'll notice this a lot in
 # Python, where statements and are usually in the context of "up to, but not including".
 
-#Everything
+# Everything
 s[:]
 
 
@@ -238,7 +238,8 @@ print('One: {p}, Two: {p}, Three: {p}'.format(p='Hi!'))
 
 
 # Several Objects:
-print('Object 1: {a}, Object 2: {b}, Object 3: {c}'.format(a=1,b='two',c=12.3))
+print('Object 1: {a}, Object 2: {b}, Object 3: {c}'.format(
+    a=1, b='two', c=12.3))
 
 
 # That is the basics of string formatting!
